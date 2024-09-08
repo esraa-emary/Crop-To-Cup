@@ -1,0 +1,696 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #000; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6A3D2A;
+    border-radius: 6px; 
+}
+
+button:hover,.social img:hover,img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 2rem #000;
+    transition: all 0.2s;
+}
+
+.part4 img:hover{
+    box-shadow: 0 0 2rem #fff;
+}
+
+/* ============================= part1 ================================ */
+
+.header{
+    height: 100vh;
+    display: flex;
+}
+
+.he1{
+    width: 50%;
+    position: relative;
+}
+
+.phone,.phone2{
+    display: none;
+}
+
+.navbar1{
+    position: absolute;
+    right: 0;
+    padding: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.he2{
+    background: url("https://github.com/esraa-emary/photos/blob/main/Crop-To-Cup/Rectangle%202306.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    position: relative;
+}
+
+.navbar2{
+    position: absolute;
+    left: 1rem;
+    padding: 2rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.pp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pp a{
+    font-family: 'Satisfy',sans-serif;
+}
+
+.navbar1 a,.navbar2 a{
+    text-decoration: none;
+    color: #747474;
+}
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 5rem;
+    width: 100%;
+}
+
+.p1 h1,.phone2 h1{
+    color: #6A3D2A;
+    font-size: 1.5rem;
+}
+
+.p1 p,.phone2 p{
+    font-size: 0.9rem;
+    margin: 2rem 0;
+}
+
+.p1 button,.phone2 button{
+    background: #6A3D2A;
+    border: #6A3D2A  solid 1px;
+    color: #fff;
+    padding: 2px 5px;
+    width: 100px;
+    height: 40px;
+    margin: 0 0 2rem 0;
+}
+
+.navbar2 a{
+    color: #fff;
+}
+
+.bb{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    background:  #4D3D2E;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.bb div{
+    display: flex;
+    gap: 5px;
+}
+
+.bb p{
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.header a{
+    font-size: 0.8rem;
+}
+
+/* ============================= part2 ============================== */
+
+.p p{
+    margin: 2rem 0;
+}
+
+.p{
+    width: 40%;
+}
+
+.p button{
+    background: #fff;
+    border: #000 solid 1px;
+    color: #000;
+    padding: 2px 5px;
+    width: 100px;
+    height: 40px;
+    margin: 0 0 2rem 0;
+}
+
+.ico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.ico h3{
+    margin: 0 0 1rem 0;
+}
+
+.cont{
+    display: flex;
+    gap: 40px;
+    margin: 5rem;
+    justify-content: space-between;
+}
+
+.ico p{
+    width: 200px;
+}
+
+.cont h1{
+    font-size: 1.5rem;
+}
+
+.cont p,.cont h3{
+    font-size: 0.8rem;
+}
+
+/* ================================ part3 =============================== */
+
+.p3{
+    display: flex;
+    gap: 40px;
+}
+
+.find{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 3rem 0;
+}
+
+.find h1{
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.find p{
+    width: 500px;
+    font-size: 0.8rem;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.photo img{
+    width: 180px;
+}
+
+.ff{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part3{
+    margin: 0  5rem 5rem 5rem;
+}
+
+.part3 p{
+    font-size: 0.8rem;
+}
+
+/* ============================== menu ================================ */
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.menu h1{
+    margin: 0 0 1rem 0;
+}
+
+.men{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.men p{
+    width: 600px;
+}
+
+.menu a{
+    position: absolute;
+    right: 5rem;
+    top: 5rem;
+    color: #000;
+}
+
+.col{
+    background: #F6EDE0;
+    margin: 5rem;
+    padding: 3rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.r{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.rr{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.menu p,.menu h5{
+    font-size: 0.7rem;
+}
+
+.men p{
+    font-size: 0.8rem;
+}
+
+/* ============================= part4 =================================== */
+
+.part4{
+    background: url("https://github.com/esraa-emary/photos/blob/main/Crop-To-Cup/Group%20877.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+}
+
+.p2{
+    width: 500px;
+    color: #fff;
+}
+
+.s33 h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.ss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.par{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* ============================ footer ================================ */
+
+.footer1,.footer2{
+    padding: 5rem 5rem 2rem 5rem;
+    justify-content: space-between;
+    display: flex;
+    color: #000;
+    align-items: center;
+}
+
+.footer2{
+    padding: 0 5rem 2rem 5rem;
+}
+
+.foo1{
+    display:flex ;
+    flex-direction: column;
+    direction: ltr;
+}
+
+.footer1 a,.footer1 p{
+    margin: 0 0 1rem 0;
+}
+
+.foo1 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer1 h2{
+    margin: 0 0 2rem 0;
+}
+
+.social{
+    display: flex;
+}
+
+.footer1 p,.footer1 a,.footer2 p{
+    font-size: 0.8rem;
+}
+
+.footer1 h2{
+    font-size: 1rem;
+}
+
+/* ========================================================= */
+
+a:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+    color: #6A3D2A;
+}
+
+/* =============================================================== */
+
+@media screen and (max-width : 1024px) {
+    .part3,.col{
+        margin:  3rem;
+    }
+
+    .col{
+        padding: 3rem;
+    }
+
+    .footer1{
+        padding: 5rem 3rem 2rem 3rem;
+    }
+
+    .footer2{
+        padding: 0 3rem 2rem 3rem;
+    }
+
+    .s img{
+        width: 250px;
+    }
+
+    .part4 {
+        padding: 3rem;
+    }
+
+    .p2{
+        width: 300px;
+    }
+
+    .p1{
+        padding: 0 3rem;
+    }
+
+    .cont{
+        margin: 3rem;
+    }
+
+    .footer1 p,.footer1 a,.footer2 p,.men p,
+    .part3 p,.find p,.bb p,.header a,.p1 p,.bb p,.cont p,.cont h3{
+        font-size: 0.7rem;
+    }
+
+    .footer1 h2{
+        font-size: 0.8rem;
+    }
+
+    .menu p,.menu h5{
+        font-size: 0.55rem;
+    }
+
+    .men p{
+        font-size: 0.65rem;
+        width: 400px;
+    }
+
+    .find h1,.p1 h1,.cont h1{
+        font-size: 1.35rem;
+    }
+
+    .ico p{
+        width: 150px;
+    }
+
+    .find p{
+        width: 400px;
+    }
+
+    .photo img{
+        width: 150px;
+    }
+
+    .menu img{
+        width: 100px;
+    }
+
+    .rr{
+        width: 40px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .he1,.he2{
+        display: none;
+    }
+
+    .phone{
+        display: flex;
+        flex-direction: column;
+        background: url("https://github.com/esraa-emary/photos/blob/main/Crop-To-Cup/Rectangle%202306.png?raw=true");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        height: 100vh;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .bbb{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        background: #4D3D2E;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0.6rem;
+        height: 40px;
+    }
+
+    .bbb div{
+        display: flex;
+        gap: 5px;
+    }
+
+    .bbb p{
+        color: #fff;
+    }
+
+    .phone2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        padding: 0 3rem;
+    }
+
+    .header{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cont{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .p{
+        width: 100%;
+    }
+
+    .footer1 p,.footer1 a,.footer2 p,.men p,
+    .part3 p,.find p,.bbb p,.header a,.phone2 p,
+    .bbb p,.cont p,.cont h3,.p2{
+        font-size: 0.7rem;
+    }
+
+    .find h1,.p1 h1,.cont h1,.men h1{
+        font-size: 1.3rem;
+    }
+
+    .menu a{
+        right: 5rem;
+        top: 7rem;
+        font-size: 0.5rem;
+    }
+
+    .menu img{
+        width: 60px;
+    }
+
+    .r{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rr{
+        width: 70px;
+    }
+
+    .find p,.men p{
+        width: 290px;
+    }
+
+    .photo img{
+        width: 70px;
+    }
+    
+    .ff p{
+        font-size: 0.35rem;
+    }
+
+    .part4{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .s img{
+        width: 250px;
+    }
+
+    .footer1 p,.footer1 a,.footer2 p,.footer1 h2{
+        font-size: 0.55rem;
+    }
+
+    .footer1 img{
+        width: 150px;
+    }
+
+    .p3{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .footer1 p,.footer1 a,.footer2 p,.men p,
+    .part3 p,.find p,.bbb p,.header a,.phone2 p,
+    .bbb p,.cont p,.cont h3{
+        font-size: 0.5rem;
+    }
+
+    .find h1,.p1 h1,.cont h1,.men h1{
+        font-size: 1.2rem;
+    }
+
+    .ico img{
+        width: 25px;
+    }
+
+    .ico p{
+        width: 100px;
+    }
+
+    .phone2{
+        height: 60vh;
+    }
+
+    .find p,.men p{
+        width: 200px;
+    }
+
+    .ff p{
+        font-size: 0.3rem;
+    }
+
+    .photo img{
+        width: 50px;
+    }
+
+    .col{
+        padding: 1rem;
+    }
+
+    .menu img{
+        width: 40px;
+    }
+
+    .rr{
+        width: 50px;
+    }
+
+    .s img{
+        width: 200px;
+    }
+
+    .footer1 p,.footer1 a,.footer2 p,.footer1 h2{
+        font-size: 0.4rem;
+    }
+
+    .footer1 img{
+        width: 120px;
+    }
+
+    .footer1{
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .footer2{
+        padding: 0 1rem 1rem 1rem;
+    }
+}
