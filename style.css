@@ -416,7 +416,7 @@ button:hover,.social img:hover,img:hover{
 
 /* ========================================================= */
 
-a:hover,.phone:hover{
+a:hover{
     transform: scale(1.1);
     transition: all 0.2s;
     color: #6A3D2A;
