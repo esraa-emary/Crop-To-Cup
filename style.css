@@ -403,7 +403,7 @@ button:hover,.social img:hover,img:hover{
 
 /* ========================================================= */
 
-a:hover{
+a:hover,.phone:hover{
     transform: scale(1.1);
     transition: all 0.2s;
     color: #6A3D2A;
