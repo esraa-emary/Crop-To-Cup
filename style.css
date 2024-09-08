@@ -646,6 +646,10 @@ a:hover{
         width: 100px;
     }
 
+    .phone{
+        height: 80vh;
+    }
+
     .phone2{
         height: 60vh;
     }
