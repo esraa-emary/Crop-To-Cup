@@ -693,4 +693,8 @@ a:hover{
     .footer2{
         padding: 0 1rem 1rem 1rem;
     }
+
+    .menu a{
+        top: 6rem;
+    }
 }
