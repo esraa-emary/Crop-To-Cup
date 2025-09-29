@@ -59,7 +59,7 @@ button:hover,.social img:hover,img:hover{
 }
 
 .he2{
-    background: url("https://github.com/esraa-emary/photos/blob/main/Crop-To-Cup/Rectangle%202306.png?raw=true");
+    background: url("img/Rectangle2306.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
@@ -715,3 +715,4 @@ a:hover{
         top: 6rem;
     }
 }
+
