@@ -326,7 +326,7 @@ button:hover,.social img:hover,img:hover{
 /* ============================= part4 =================================== */
 
 .part4{
-    background: url("https://github.com/esraa-emary/photos/blob/main/Crop-To-Cup/Group%20877.png?raw=true");
+    background: url("img/Group877.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -512,7 +512,7 @@ a:hover{
     .phone{
         display: flex;
         flex-direction: column;
-        background: url("https://github.com/esraa-emary/photos/blob/main/Crop-To-Cup/Rectangle%202306.png?raw=true");
+        background: url("img/Rectangle2306.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -715,4 +715,5 @@ a:hover{
         top: 6rem;
     }
 }
+
 
